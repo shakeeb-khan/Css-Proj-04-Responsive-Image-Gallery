@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 5px;
+}
+img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
